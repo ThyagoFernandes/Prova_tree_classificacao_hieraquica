@@ -1,7 +1,7 @@
 from csv import reader
 from contextlib import redirect_stdout
 from collections import namedtuple
-from treelib import Tree, Node
+from treelib import Tree, Node #pip3 install treelib
 
 Entrada = namedtuple("Entrada", "cod_geral area_geral cod_especifica area_especifica cod_detalhada area_detalhada codigo rotulo")
 with open("dataset.csv", encoding="utf-8") as csvfile:
